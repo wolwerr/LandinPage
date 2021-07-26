@@ -20,3 +20,11 @@ function setCredentials(event) {
     window.alert("Preencha o nome e o E-mail")
 }}
 
+
+var form = document.getElementsByTagName("cadastroC")[0]; // or any other way to identify the form
+
+form.onsubmit = function(e) {
+var eTarget = e.target;
+window.open(eTarget.action, eTarget.name, "height=500, scrollbars=1, width=950, resizable");
+return false;
+};​
