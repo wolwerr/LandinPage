@@ -52,8 +52,13 @@ p {
 section {
   width: 100%;
 }
-.section-one {
-  margin-top: 14vh;
+
+.buton1{
+  margin: 30px;   
+    color: white;
+    cursor: pointer;
+    
+    
 }
 
 

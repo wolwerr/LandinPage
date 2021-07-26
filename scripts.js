@@ -2,8 +2,6 @@
 
 function setCredentials(event) {
     event.preventDefault();
-
-    
     
     var inputNome = document.getElementById("nome");
     var inputEmail = document.getElementById("email");
@@ -20,8 +18,5 @@ function setCredentials(event) {
 
 }else{
     window.alert("Preencha o nome e o E-mail")
-    
-}
+}}
 
-
-}
